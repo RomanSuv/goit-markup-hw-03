@@ -153,12 +153,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-margin: 48px auto;
-flex-shrink: 1;
+min-width: 169px;
+height: 56px;
+border: none;
 padding: 16px 32px 16px 32px;
 gap: 10px;
-display: flex;
-border-radius: 10px;
+display: block;
+border-radius: 4px;
 }
 .color-order:hover, .color-order:focus{
     color: #FFFFFF;
@@ -173,7 +174,7 @@ border-radius: 10px;
     text-align: center;
     font-weight: 700;
     font-size: 56px;
-    width: 496px;
+   max-width: 496px;
    margin: auto;
 }
 
@@ -194,7 +195,7 @@ border-radius: 10px;
    display: flex;
    flex-direction: column;
    height: 120px;
-   padding: 188px 0 292px 0;
+   padding: 188px 0;
    border-bottom: 1px;
    border-top: 1px;
 }
