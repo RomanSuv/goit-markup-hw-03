@@ -45,7 +45,7 @@ p{
 }
 ul{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     list-style-type: none;
 }
 img{
@@ -154,6 +154,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 margin: 48px auto;
+flex-shrink: 1;
+padding: 16px 32px 16px 32px;
+gap: 10px;
+display: flex;
+border-radius: 10px;
 }
 .color-order:hover, .color-order:focus{
     color: #FFFFFF;
@@ -168,6 +173,8 @@ margin: 48px auto;
     text-align: center;
     font-weight: 700;
     font-size: 56px;
+    width: 496px;
+   margin: auto;
 }
 
 .title-second{
@@ -178,16 +185,18 @@ margin: 48px auto;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-menu);
-    padding-bottom: 72px;
-    margin: 0;
+    /* padding-bottom: 72px;
+    margin: 0; */
    
 }
 .first-section{
    background-color: var(--first);
    display: flex;
    flex-direction: column;
-   height: 412px;
-   padding: 188px 0;
+   height: 120px;
+   padding: 188px 0 292px 0;
+   border-bottom: 1px;
+   border-top: 1px;
 }
 .fourth-section{
    background-color: #F4F4FD;
@@ -225,20 +234,31 @@ background-color: #FFFFFF;
     display: none;
 }
 .prioritet{
-    margin: 120px 156px;
+    /* margin: 120px 156px; */
     display: flex;
-    padding: 0 24px 0 24px;
+    gap: 24px;
+    height: 104px;
+    width: 1128px;
+    padding: 0 auto;
 }
 .do{
 display: flex;
+padding: 72px;
 gap: 24px;
     
 }
 .our{
-    margin: 240px 0 0 0;
+    margin-top: 120px;
 }
 .our-pic{
     display: flex;
     padding-top: 72px;
     gap: 24px;    
+}
+.strategy{
+    margin: 120px 156px;
+}
+.do-list{
+    padding-top: 104px;
+    
 }
