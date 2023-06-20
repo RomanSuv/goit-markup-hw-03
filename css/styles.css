@@ -168,6 +168,7 @@ padding: 16px 32px 16px 32px;
 gap: 10px;
 display: block;
 border-radius: 4px;
+margin: 0 auto;
 }
 .color-order:hover, .color-order:focus{
     color: #FFFFFF;
