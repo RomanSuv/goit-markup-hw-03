@@ -187,8 +187,7 @@ border-radius: 4px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-menu);
-    /* padding-bottom: 72px;
-    margin: 0; */
+    margin-bottom: 72px; 
    
 }
 .first-section{
@@ -196,12 +195,13 @@ border-radius: 4px;
    display: flex;
    flex-direction: column;
    height: 120px;
-   padding: 120px 0;
+   padding: 188px 0;
    border-bottom: 1px;
    border-top: 1px;
 }
 .fourth-section{
    background-color: #F4F4FD;
+padding: 120px 0;
 }
 .end-logo{
     color: #f4f4fd;
@@ -212,6 +212,7 @@ border-radius: 4px;
 }
 .team-li{
 background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
 }
 .start{
     border-bottom: 1px solid #e7e9fc;
@@ -268,10 +269,10 @@ gap: 24px;
     gap: 24px;    
 }
 .strategy{
-    margin: 120px 156px;
+    padding: 120px 0;
 }
 .do-list{
-    padding-top: 104px;
+    padding-bottom: 120px;
     
 }
 .set{
@@ -279,4 +280,17 @@ gap: 24px;
 }
 .strategy-title{
     margin-bottom: 8px;
+}
+.tehnik{
+   width: calc((100% - 48px) / 3);
+}
+.people{
+    padding: 32px 16px;
+}
+.people-name{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.name-job{
+    text-align: center;
 }
