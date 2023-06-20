@@ -240,6 +240,7 @@ border-radius: 0px 0px 4px 4px;
 .fl-menu{
     display: flex;
     gap: 40px;
+    margin-right: 76px;
 }
 .visually-hidden{
     position: absolute;
