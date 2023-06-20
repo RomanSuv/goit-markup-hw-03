@@ -26,6 +26,7 @@ body{
 }
 main{
     flex-grow: 1;
+    max-height: 100%;
 }
 h3,h2{
     font-weight: 500;
@@ -195,7 +196,7 @@ border-radius: 4px;
    display: flex;
    flex-direction: column;
    height: 120px;
-   padding: 188px 0;
+   padding: 120px 0;
    border-bottom: 1px;
    border-top: 1px;
 }
@@ -231,8 +232,18 @@ background-color: #FFFFFF;
     display: flex;
     gap: 40px;
 }
-.stels{
-    display: none;
+.visually-hidden{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 .prioritet{
     /* margin: 120px 156px; */
@@ -246,7 +257,7 @@ background-color: #FFFFFF;
 display: flex;
 padding: 72px;
 gap: 24px;
-    
+
 }
 .our{
     margin-top: 120px;
@@ -262,4 +273,10 @@ gap: 24px;
 .do-list{
     padding-top: 104px;
     
+}
+.set{
+    width: calc((100% - 72px) / 4);
+}
+.strategy-title{
+    margin-bottom: 8px;
 }
