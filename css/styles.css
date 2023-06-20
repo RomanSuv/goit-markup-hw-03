@@ -298,3 +298,11 @@ gap: 24px;
 .name-job{
     text-align: center;
 }
+.app{
+    display: flex;
+    flex-grow: 1;
+}
+.app-filter{
+    display: flex;
+    padding: 0 24px;
+}
