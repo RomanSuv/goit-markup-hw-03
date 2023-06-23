@@ -15,14 +15,7 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: var(--back-body);
-    position: relative;
-    width: 1440px;
-    height: 2592px;  
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;  
+    background-color: var(--back-body); 
 }
 main{
     flex-grow: 1;
@@ -42,7 +35,6 @@ p{
         letter-spacing: 0.02em;
         ;
         color: var(--text-small);
-        margin: 0;
 }
 ul{
     margin: 0;
@@ -52,8 +44,6 @@ ul{
 img{
     display: block;
     max-width: 100%;
-    object-fit: cover;
-    border: 2px solid #e7e9fc;
     
 }
 
@@ -76,7 +66,6 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    margin-bottom: 16px;
     display: inline-block;
 }
 .link{
@@ -98,6 +87,7 @@ img{
 }
 .contacts{
     font-style: normal;
+    margin-left: auto;
 }
 .numb-mail{
     font-size: 16px;
@@ -185,6 +175,7 @@ margin: 0 auto;
     font-size: 56px;
    max-width: 496px;
    margin: auto;
+   margin-bottom: 48px;
 }
 
 .title-second{
@@ -200,12 +191,7 @@ margin: 0 auto;
 }
 .first-section{
    background-color: var(--first);
-   display: flex;
-   flex-direction: column;
-   height: 120px;
    padding: 188px 0;
-   border-bottom: 1px;
-   border-top: 1px;
 }
 .fourth-section{
    background-color: #F4F4FD;
@@ -225,9 +211,11 @@ border-radius: 0px 0px 4px 4px;
 }
 .start{
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .page-head{
     display: flex;
+    align-items: center;
 }
 .container{
     width: 1158px;
@@ -241,7 +229,6 @@ border-radius: 0px 0px 4px 4px;
 .fl-menu{
     display: flex;
     gap: 40px;
-    margin-right: 76px;
 }
 .visually-hidden{
     position: absolute;
@@ -257,16 +244,13 @@ border-radius: 0px 0px 4px 4px;
         overflow: hidden;
 }
 .prioritet{
-    /* margin: 120px 156px; */
+
     display: flex;
     gap: 24px;
-    height: 104px;
-    width: 1128px;
     padding: 0 auto;
 }
 .doo{
 display: flex;
-padding: 72px;
 gap: 24px;
 
 }
